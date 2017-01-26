@@ -239,9 +239,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #slider-section, #home-section{
 	background-image:url(../images/big-pic-1.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-color:#282f1f;
+
+
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+
 	position:relative;
 	color:#fff;
 	height:750px;
